@@ -1,0 +1,43 @@
+@media (max-width: 991.98px) {
+  .navbar.fixed-top {
+    background-color: #343a40 !important; /* Apply the dark background color */
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .hanging-heading{
+    font-size:30px; 
+  }
+
+  .search-form{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+  .hanging-heading{
+    font-size:22px; 
+  }
+  .search-form{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .hanging-heading{
+    font-size:20px; 
+  }
+  .search-form{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .hanging-heading{
+    font-size:19px; 
+  }
+  .search-form{
+    width: 100%;
+  }
+}
+

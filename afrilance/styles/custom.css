@@ -1,0 +1,244 @@
+/* Add custom styles here */
+body {  
+  background-color: #ffffff; /* White background */
+  color: #333333; /* Dark gray text */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  min-height:100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.text-underline{
+  text-decoration: underline;
+}
+
+.primary-bg {
+  background-color: #F79F1F; /* Vibrant orange background */
+}
+
+.secondary-bg{
+  background-color: #333333;
+  color:white;
+}
+
+.tertiary-bg{
+  background-color: #32CD32;
+  color:white;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.green-bg, .hanging-heading{
+  background-color: #32CD32;
+  color: white;
+}
+
+#hero{
+  background-image: url('/assets/images/hero.jpg');
+  height: 65vh;
+}
+
+.hanging-heading{
+  position: relative; 
+  bottom:28px; 
+  border:solid 4px white;
+  border-radius: 0 0 0.3em 0.3em;
+}
+
+.accent-color {
+  color: #32CD32; /* Green accent color */
+}
+
+.btn-primary {
+  background-color: #F79F1F;
+  border-color: #F79F1F;
+}
+
+.btn-secondary {
+  background-color: #32CD32;
+  border-color: #32CD32;
+}
+
+.search-form{
+  width: 40%;
+}
+
+.hero-inner{
+  background-color: #333333cc;
+  height:100%;
+}
+
+.solid-bg {
+  background-color: #212529 !important;
+}
+
+.no-bg {
+  background-color: transparent;
+}
+
+.nav-pills .nav-item>.nav-link{
+  color: #32CD32;
+}
+
+/* Style the fixed position for the sub navbar */
+.fixed-tops {
+  position: fixed;
+  top: 25px;
+  width: 100%;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.hover-dropdown .dropdown-menu {
+  display: none;
+}
+
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.hv{
+  font-weight:bold;
+}
+
+.hv:hover{
+  background-color: #32CD32;
+  color:white;
+}
+
+.hv:active{
+  background-color: #32CD32 !important;
+  color:white !important;
+  border-color: #32CD32 !important;
+}
+
+.hv:focus{
+  background-color: #32CD32;
+  color:white;
+  box-shadow: 2px 2px 4px 2px rgba(247, 159, 31, 0.5);
+
+}
+
+.footer-link{
+  color:#32CD32;
+}
+
+.footer-link:hover{
+  color:#ffffff;
+}
+
+.kanban-board {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card-header {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Style for received messages */
+.message.received {
+  background-color: #f1f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  min-width: 70%;
+  float:left;
+  clear:right;
+}
+
+/* Style for sent messages */
+.message.sent {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  min-width: 70%;
+  float: right; /* Float the sent messages to the right */
+  clear:left; 
+}
+
+.reply{
+  margin-top:20px;
+}
+
+.center-contents{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-clients{
+  background-image: url('/assets/images/logo.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position-y: center;
+  background-position-x: center;
+  color:white;
+  background-color: #333333;
+}
+
+
+
+.carousel-cube .carousel-item {
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-cube .carousel-item-next,
+.carousel-cube .carousel-item-prev,
+.carousel-cube .carousel-item.active {
+  display: block;
+  transform: translateX(0);
+}
+
+.carousel-cube .carousel-item-next.carousel-item-left,
+.carousel-cube .carousel-item-prev.carousel-item-right {
+  transform: translateX(100%);
+}
+
+.carousel-cube .carousel-item-left.carousel-item-next,
+.carousel-cube .carousel-item-right.carousel-item-prev {
+  transform: translateX(-100%);
+}
+
+/*no underline**/
+.no-line:hover{
+  text-decoration: none;
+}
+
+.flex-column-1 {
+  /* Center elements vertically (flexbox approach) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center both horizontally and vertically */
+}
